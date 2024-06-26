@@ -1,0 +1,12 @@
+{
+	"type": "code",
+	"modid": "pomdrafts",
+	"name": "Power of Mind: Drafts",
+	"authors": [ "Xytabich" ],
+	"description": "A set of systems for creating crafting recipes based on blueprints.",
+	"version": "1.0.0",
+	"dependencies": {
+		"game": "1.19.0",
+		"survival": "1.19.0"
+	}
+}

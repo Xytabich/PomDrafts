@@ -1,0 +1,127 @@
+{
+	"code": "draftingtable",
+	"class": "pomdrafts:draftingtable",
+	"entityclass": "pomdrafts:draftingtable",
+	"behaviorsByType": {
+		"*-big-*": [ { "name": "pomcore:mbhorplacer" } ],
+		"*-small-*": [ { "name": "HorizontalOrientable" } ]
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "small", "big" ]
+		},
+		{
+			"code": "side",
+			"loadFromProperties": "abstract/horizontalorientation"
+		}
+	],
+	"attributes": {
+		"pom-multiblockByType": {
+			"*-big-*": [
+				{
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				{
+					"x": 1,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 1,
+					"y": 1,
+					"z": 0
+				}
+			]
+		},
+		"sizeByType": {
+			"*-small-*": [ 14, 14 ],
+			"*-big-*": [ 30, 18 ]
+		}
+	},
+	"creativeinventory": {
+		"general": [ "*-north" ],
+		"decorative": [ "*-north" ]
+	},
+	"shape": {
+		"baseByType": {
+			"*-small-*": "block/draftingtable/small",
+			"*-big-*": "block/draftingtable/big"
+		},
+		"rotateYByType": {
+			"*-north": 0,
+			"*-east": 270,
+			"*-south": 180,
+			"*-west": 90
+		}
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"blockmaterial": "Wood",
+	"replaceable": 550,
+	"resistance": 2,
+	"lightAbsorption": 0,
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"heldRightReadyAnimation": "heldblockready",
+	"heldTpUseAnimation": "twohandplaceblock",
+	"guiTransformByType": {
+		"*-big-*": {
+			"rotation": {
+				"x": -22.5,
+				"y": 160,
+				"z": 0
+			},
+			"origin": {
+				"x": 1,
+				"y": 1,
+				"z": 0.5
+			},
+			"scale": 0.7
+		},
+		"*-small-*": {
+			"rotation": {
+				"x": -22.5,
+				"y": -150,
+				"z": 0
+			}
+		}
+	},
+	"tpHandTransformByType": {
+		"*-big-*": {
+			"translation": {
+				"x": -1.8,
+				"y": -1.8,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 105,
+				"y": 5,
+				"z": -78
+			}
+		},
+		"*-small-*": {
+			"translation": {
+				"x": -2.45,
+				"y": -1.8,
+				"z": -1
+			},
+			"rotation": {
+				"x": 105,
+				"y": -15,
+				"z": -77
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+[
+	{
+		"code": "struct",
+		"textures": {
+			"input": "gui/struct_in",
+			"output": "gui/struct_out",
+			"connected": "gui/struct_conn"
+		}
+	},
+	{
+		"code": "temporal",
+		"textures": {
+			"input": "gui/temporal",
+			"output": "gui/temporal",
+			"connected": "gui/temporal"
+		}
+	},
+	{
+		"code": "mechanical",
+		"textures": {
+			"input": "gui/gear",
+			"output": "gui/gear",
+			"connected": "gui/gear"
+		}
+	}
+]

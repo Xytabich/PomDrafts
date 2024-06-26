@@ -1,0 +1,21 @@
+{
+	"code": "refractor",
+	"behaviors": [
+		{
+			"name": "pomdrafts:draft",
+			"properties": {
+				"shape": [ "S" ],
+				"cells": {
+					"S": {
+						"inputs": {
+							"down": "temporal"
+						}
+					}
+				},
+				"texture": "textures/gui/refractor",
+				"groups": [ "temporal" ]
+			}
+		}
+	],
+	"textures": { "draft": { "base": "gui/refractor" } }
+}

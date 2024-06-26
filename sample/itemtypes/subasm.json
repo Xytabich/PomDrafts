@@ -1,0 +1,22 @@
+{
+	"code": "subassembly",
+	"behaviors": [
+		{
+			"name": "pomdrafts:draft",
+			"properties": {
+				"shape": [ "S" ],
+				"cells": {
+					"S": {
+						"outputs": {
+							"up": "temporal",
+							"down": "mechanical"
+						}
+					}
+				},
+				"texture": "textures/gui/subasm",
+				"groups": [ "mechanical", "temporal" ]
+			}
+		}
+	],
+	"textures": { "draft": { "base": "gui/subasm" } }
+}

@@ -1,0 +1,19 @@
+{
+	"code": "frame",
+	"behaviors": [
+		{
+			"name": "pomdrafts:draft",
+			"properties": {
+				"shape": [ "DD" ],
+				"cells": {
+					"D": {
+						"outputs": { "down": "struct" }
+					}
+				},
+				"texture": "textures/gui/frame",
+				"groups": [ "struct" ]
+			}
+		}
+	],
+	"textures": { "draft": { "base": "gui/frame" } }
+}

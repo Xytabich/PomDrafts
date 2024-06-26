@@ -1,0 +1,10 @@
+{
+	"sample:item-basement": "Basement",
+	"sample:item-fluxgap": "Fluxgap",
+	"sample:item-frame": "Frame",
+	"sample:item-refractor": "Refractor",
+	"sample:item-subassembly": "Subassembly",
+	"pomdrafts:group-mechanical": "Mechanical",
+	"pomdrafts:group-struct": "Structural",
+	"pomdrafts:group-temporal": "Temporal"
+}

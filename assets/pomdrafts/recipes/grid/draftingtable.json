@@ -1,0 +1,55 @@
+[
+	{
+		"ingredientPattern": "PPT,PPC,PP_",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*"
+			},
+			"C": {
+				"type": "item",
+				"code": "game:paper-*"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"toolDurabilityCost": 3,
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "draftingtable-small-north",
+			"quantity": 1
+		}
+	},
+	{
+		"ingredientPattern": "PPP,PCP,PTP",
+		"ingredients": {
+			"P": {
+				"type": "item",
+				"code": "game:plank-*",
+				"quantity": 2
+			},
+			"C": {
+				"type": "item",
+				"code": "game:paper-*"
+			},
+			"T": {
+				"type": "item",
+				"code": "game:chisel-*",
+				"toolDurabilityCost": 7,
+				"isTool": true
+			}
+		},
+		"width": 3,
+		"height": 3,
+		"output": {
+			"type": "block",
+			"code": "draftingtable-big-north",
+			"quantity": 1
+		}
+	}
+]

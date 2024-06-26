@@ -1,0 +1,23 @@
+{
+	"code": "basement",
+	"behaviors": [
+		{
+			"name": "pomdrafts:draft",
+			"properties": {
+				"shape": [ "S" ],
+				"cells": {
+					"S": {
+						"inputs": {
+							"up": "mechanical",
+							"left": "struct",
+							"right": "struct"
+						}
+					}
+				},
+				"texture": "textures/gui/basement",
+				"groups": [ "mechanical", "struct" ]
+			}
+		}
+	],
+	"textures": { "draft": { "base": "gui/basement" } }
+}

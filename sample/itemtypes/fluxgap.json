@@ -1,0 +1,25 @@
+{
+	"code": "fluxgap",
+	"behaviors": [
+		{
+			"name": "pomdrafts:draft",
+			"properties": {
+				"shape": [ "S" ],
+				"cells": {
+					"S": {
+						"outputs": {
+							"up": "temporal"
+						},
+						"inputs": {
+							"down": "temporal"
+						}
+					}
+				},
+				"texture": "textures/gui/flux_gap",
+				"color": "#007f00",
+				"groups": [ "temporal" ]
+			}
+		}
+	],
+	"textures": { "draft": { "base": "gui/flux_gap" } }
+}

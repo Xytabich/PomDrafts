@@ -1,0 +1,14 @@
+{
+	"pomdrafts:groupall": "All",
+	"pomdrafts:draftingtable": "Drafting Table",
+	"pomdrafts:tablecontrols": "<strong>Controls:</strong>",
+	"pomdrafts:centercanvas": "Center canvas",
+	"pomdrafts:clearcanvas": "Clear canvas",
+	"pomdrafts:zoomcanvas": "Zoom canvas",
+	"pomdrafts:dragcanvas": "Drag canvas",
+	"pomdrafts:rotatedraft": "Rotate draft",
+	"pomdrafts:dragdraft": "Drag draft",
+	"pomdrafts:makejson": "Make recipe json",
+	"pomdrafts:block-draftingtable-small-*": "Drafting Table (Small)",
+	"pomdrafts:block-draftingtable-big-*": "Drafting Table (Big)"
+}

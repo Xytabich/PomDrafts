@@ -1,0 +1,95 @@
+[
+	{
+		"code": "testdraft",
+		"pattern": {
+			"b": {
+				"code": "basement"
+			},
+			"f0": {
+				"code": "frame",
+				"outputs": [
+					{
+						"type": "struct",
+						"target": "b"
+					}
+				]
+			},
+			"f1": {
+				"code": "frame",
+				"outputs": [
+					{
+						"type": "struct",
+						"target": "b"
+					}
+				]
+			},
+			"s": {
+				"code": "subassembly",
+				"outputs": [
+					{
+						"type": "mechanical",
+						"target": "b"
+					},
+					{
+						"type": "temporal",
+						"target": "f"
+					}
+				]
+			},
+			"f": {
+				"code": "fluxgap",
+				"outputs": [
+					{
+						"type": "temporal",
+						"target": "r"
+					}
+				]
+			},
+			"r": {
+				"code": "refractor"
+			}
+		},
+		"ingredients": [
+			{
+				"type": "item",
+				"code": "game:metalnailsandstrips-copper",
+				"quantity": 8
+			},
+			{
+				"type": "item",
+				"code": "game:jonasparts-connector01"
+			},
+			{
+				"type": "item",
+				"code": "game:jonasparts-tank02"
+			},
+			{
+				"type": "item",
+				"code": "game:ingot-electrum"
+			},
+			{
+				"type": "item",
+				"code": "game:clearquartz",
+				"quantity": 4
+			},
+			{
+				"type": "item",
+				"code": "game:jonasframes-oscillator01"
+			},
+			{
+				"type": "item",
+				"code": "game:metalplate-iron"
+			},
+			{
+				"type": "block",
+				"code": "game:metal-parts",
+				"quantity": 2
+			}
+		],
+		"output": {
+			"type": "block",
+			"code": "game:riftward",
+			"quantity": 1
+		}
+	}
+]
