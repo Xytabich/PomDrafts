@@ -35,7 +35,8 @@
 			},
 			"C": {
 				"type": "item",
-				"code": "game:paper-*"
+				"code": "game:paper-*",
+				"quantity": 3
 			},
 			"T": {
 				"type": "item",
